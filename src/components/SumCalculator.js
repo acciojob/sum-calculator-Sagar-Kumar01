@@ -12,7 +12,7 @@ const SumCalculator = () => {
     <div>
       <h1>Sum Calculator</h1>
       <input type='number' onChange={(e)=>setSum2(Number(e.target.value))}/>
-      <p>sum: {sum}</p>
+      <p>Sum: {sum}</p>
     </div>
   )
 }
